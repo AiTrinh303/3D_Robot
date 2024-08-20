@@ -17,14 +17,14 @@ export default function Scene() {
     <Canvas gl={{ antialias: true }} dpr={[1, 1.5]} className="relative h-svh">
       <directionalLight position={[-5, -5, 5]} intensity={4} />
       <Suspense fallback={<Loader />}>
-        <ScrollControls damping={0.8} pages={4}>
+        <ScrollControls damping={0.8} pages={3}>
           <Model />
           {/* Add Text Below the Model */}
           <Text
             position={[0, -1.5, 0]} // Adjust position to place it below the model
             fontSize={0.3} // Adjust the size of the text
             fontWeight={700} // Set the font weight
-            color="#E06EDD" // Set the color of the text
+            color="darkpin" // Set the color of the text
             anchorX="center" // Center the text horizontally
             anchorY="top" // Align text to top
           >

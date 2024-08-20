@@ -24,7 +24,7 @@ export default function Scene() {
             position={[0, -1.5, 0]} // Adjust position to place it below the model
             fontSize={0.3} // Adjust the size of the text
             fontWeight={700} // Set the font weight
-            color="#E06EDD" // Set the color of the text
+            color="E06EDD" // Set the color of the text
             anchorX="center" // Center the text horizontally
             anchorY="top" // Align text to top
           >

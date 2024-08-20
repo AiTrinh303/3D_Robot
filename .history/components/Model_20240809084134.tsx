@@ -23,7 +23,7 @@ export default function Model() {
       //@ts-ignore
       (actions["Experiment"].time =
         //@ts-ignore
-        (actions["Experiment"].getClip().duration * scroll.offset) / 2)
+        (actions["Experiment"].getClip().duration * scroll.offset) / 4)
   )
   return (
     <group ref={group}>
